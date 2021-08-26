@@ -15,5 +15,14 @@ public class ListaDeExerciciosEstruturaDeDecisao01 {
         numero1 = leitorNumeroMaior.nextFloat();
         System.out.println("Insira o segundo número");
         numero2 = leitorNumeroMaior.nextFloat();
+
+        if (numero1 > numero2) {
+            System.out.println("O número " + numero1 + " é o maior número digitado");
+        }
+        else {
+            System.out.println("O número " + numero2 + " é o maior número digitado");
+        }
+
+
     }
 }
