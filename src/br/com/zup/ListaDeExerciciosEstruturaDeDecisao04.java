@@ -1,2 +1,4 @@
-package br.com.zup;public class ListaDeExerciciosEstruturaDeDecisao04 {
+package br.com.zup;
+
+public class ListaDeExerciciosEstruturaDeDecisao04 {
 }
