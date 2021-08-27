@@ -19,11 +19,8 @@ public class ListaDeExerciciosEstruturaDeDecisao04 {
         Scanner leitorSalario = new Scanner(System.in);
 
         //Inserção de dados do usuario
+        System.out.println("Digite o valor do seu salário");
         double salarioZup = leitorSalario.nextDouble();
-        int 20;
-        int 15;
-        int 10;
-        int 5;
 
         //Calculo dos aumentos
         double aumento20 = salarioZup * 0.20;
@@ -33,8 +30,16 @@ public class ListaDeExerciciosEstruturaDeDecisao04 {
 
         //O salário antes do reajuste;
         System.out.println("Seu salário atual sem o reajuste corresponde a R$" +salarioZup+ " reais");
+        //O percentual de aumento aplicado;
+        //O valor do aumento;
+        //O novo salário, após o aumento;
 
+        //Condicionais
 
+        //Salários até R$ 280,00 (incluindo), receberão aumento de 20%
+        if (salarioZup =< 280) {
+            System.out.println("O seu salário terá um aumento de 20%");
+        }
 
 
 

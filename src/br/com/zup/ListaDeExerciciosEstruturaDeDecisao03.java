@@ -29,12 +29,11 @@ public class ListaDeExerciciosEstruturaDeDecisao03 {
             System.out.println("A sua média "+mediaParcial+ " não alcançou a nota mínima necessária. Você foi reprovade");
         }
         //A mensagem "Aprovado com Distinção", se a média for igual a dez.
-        else if (mediaParcial = 10) {
+       // else if (mediaParcial = 10) {
             System.out.println("Você acalnçou nota máxima "+mediaParcial+ "!" + "Você está aprovade com louvor!");
-        } else (mediaParcial =< 0.0 || mediaParcial => 10.1) {
+      // } else (mediaParcial =< 0.0 || mediaParcial => 10.1) {
         System.out.println("O número digitado não corresponde a valor das médias. Digite um valor válido");
     }
 
-
     }
-}
+
