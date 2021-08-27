@@ -14,6 +14,7 @@ public class ListaDeExerciciosEstruturaDeDecisao02 {
         float produto2;
         float produto3;
 
+
         //Usuario informando os dados
         System.out.println("Insira aqui o valor do produto 1");
         produto1 = leitorValores.nextFloat();
@@ -22,8 +23,14 @@ public class ListaDeExerciciosEstruturaDeDecisao02 {
         System.out.println("Insira aqui o valor do produto 3");
         produto3 = leitorValores.nextFloat();
 
+        float menorValor = produto1;
 
-
+        if (produto1 > produto2) {
+            menorValor = produto2;
+        }else if (menorValor > produto3) {
+            menorValor = produto3;
+        }
+        System.out.println("O menor valor digitado foi " + menorValor);
 
     }
 }

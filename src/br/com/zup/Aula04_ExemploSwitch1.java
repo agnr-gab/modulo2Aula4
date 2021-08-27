@@ -43,6 +43,9 @@ public class Aula04_ExemploSwitch1 {
             case 7:
                 System.out.println("É sábado");
                 break;
+            default:
+                System.out.println("Digite um número válido");
+                break;
 
         }
     }
